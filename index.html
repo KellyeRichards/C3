@@ -1,0 +1,104 @@
+<!-- If you need to make your screen larger -- hover at the top for the menu bar, click view, appearance, zoom/ cmd - or = -->
+
+<!-- ! The very first thing we need for our html file is something called a Boiler plate. Boilerplate refers to a pre-written piece of code or a template that can be used as a starting point for writing new code. BP Defines the basic structure of a page and It can save you a lot of time when writing common pieces of code. To get your BP, click shift + 1 to get an exclamation mark ! -->
+
+<!-- In HTML you have elements and tags. an element is a part of a web page that starts with a start tag and ends with an end tag, or is a standalone tag. An element can have other elements, text, or media, and can have attributes that changes what it does or how it looks. -->
+
+<!-- A tag, on the other hand, is a keyword surrounded by angle brackets (< >) or beaks, that tells the browser how to display the content inside the tag. Basically, an element is the combination of an opening and closing tag or a standalone tag with its attributes and content, while the tag is the keyword that tells the browser how to display the content inside the tag. Any questions about this? (May draw it on the white board to make sure they understand? Show pic on google)-->
+
+<!-- The first tag in an HTML document is the <!DOCTYPE html> tag: it specifies the document type and tells your browser, like chrome or safari, that it's HTML5. It's a standalone tag and it lives outside of the HTML tags.-->
+<!DOCTYPE html> 
+<!-- The <html> opening tag indicates the start of an HTML document. This is the root element of an HTML file and surrounds the entire contents of page.-->
+<html lang="en">
+<!-- The <head> section contains metadata about the page, including the page title, keywords, and description. -->  
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- The <title> tag inside the <head> section specifies the title of the page that appears in the browser's title bar and search results. -->
+ <title>All about Kellye!</title>
+
+<!--! You can link a CSS file to your HTML document by adding a <link> element to the document's <head> section. -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<!-- The <body> section contains the visible content of the page, such as text, images, videos, and other elements. -->
+<body>
+   <!--! ***GO Back to notes and talk about block and inline  -->
+<!-- Heading tags in HTML are used to define and structure the headings or titles in a web page. They start from H1 to H6, with H1 being the most important and H6 being the least important. -->
+   <h1>This page is all about me!</h1>
+<!-- Heading tags are used to make the content of the web page more organized and easier to read. They are also important for search engine optimization (SEO) as search engines use them to understand the hierarchy of the content and determine the relevance of the page to the search queries. -->   
+   <h2>Favorite Ice Cream Flavors</h2>
+
+<!--! Time to golive! Show the changes in chrome    -->
+
+<!-- Comments are used to add notes and annotations to the code that do not appear in the web browser. Comments are intended for developers and other people who read and modify the code, and are not displayed on the web page itself. To add a comment in HTML, you can use the < !- - and - -> tags. Everything between these tags will be treated as a comment by the browser and will not be displayed on the web page. Comments can be useful for a many reasons like explaining code to others, documenting changes, or leaving reminders for future work.-->
+
+<!-- Use the <ol> tag to create an ordered list, and use the <li> tag for each item in the list.  -->
+   <ol type="I">
+      <li>Chocolate</li>
+      <!-- show li*2  -->
+      <!-- <li class="choc">Chocolate</li> -->
+      <!-- <ul><li>Rocky Road</li></ul> -->
+      <li>Strawberry</li>
+      <li>Vanilla</li>
+   </ol>
+<!-- In HTML, there are several attributes that can be used with the list element to modify the look and behavior of lists on a web page. type: This attribute specifies the type of list marker to be used. The default value is disc, but there are other options like circle, square, lower-roman, etc.-->
+
+   <h2>Favorite Colors</h2>
+   <ul>
+      <li>Red</li>
+      <li>Blue</li>
+      <li>Green</li>
+   </ul>
+<!-- it's possible to create nested lists by placing one list inside another. This allows you to create more complex and structured lists on a web page.    -->
+<ul>
+  <li>Item 1</li>
+  <li>Item 2
+    <ul>
+      <li>Subitem 1</li>
+      <li>Subitem 2</li>
+    </ul>
+  </li>
+  <li>Item 3</li>
+</ul>
+<!-- In this example, the second list is nested inside the second list item of the outer list. This creates a sublist that can be used to provide additional details or information related to the main list item. You can also create nested ol lists in the same way, or even mix and match ol and ul lists depending on your needs. Just make sure to properly close each list and list item tag to avoid any errors or unexpected behavior. -->
+
+<!-- The <p> tag is used to create paragraphs of text, and "Lorem Ipsum" is a placeholder text that can be used to show the visual design of a page without using actual content. The "Lorem Ipsum" text is a series of scrambled Latin words that have no actual meaning. It's often used by developers as a placeholder text to fill in content areas until actual content is available. Using placeholder text like "Lorem Ipsum" can be a useful tool when creating a website, as it allows you to focus on the visual design of the page without getting bogged down in the details of actual content. -->
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nihil amet quia ipsam dicta nostrum eum minima possimus neque laborum eveniet sit sed ab iste mollitia, voluptatibus odit, voluptates hic.
+<!-- the <br> tag (a standalone tag) is used to create a line break or a new line within a text block. This can be useful when you want to create a new line without starting a new paragraph. -->
+      <br><br>
+<!-- <hr> tag is used to create a horizontal line between two paragraphs of text, often referred to as a horizontal rule, to separate content on a web page. the horizontal line will be displayed as a thin, horizontal line across the width of the content area.-->
+      <hr>
+   <strong>Lorem</strong> Lorem <em>italics</em> ipsum dolor sit amet consectetur adipisicing elit. Ullam sed dolore excepturi aperiam animi minima libero quas aut nulla corrupti illum adipisci nesciunt numquam, ab commodi. Facilis laudantium nihil dolorum!</p>
+
+<!-- Anchor tags, or <a> tags, in HTML are used to create clickable links that navigate to different destinations within the same web page, or to external web pages. -->
+   <a href="https://www.google.com" target="_blank">Google</a>
+<!-- The href attribute specifies the destination of the link, which can be a URL like google. After the closing quotation mark, add the target attribute to specify where the destination should be loaded, such as _blank to open the link in a new tab. -->
+
+<!-- Change the content to whatever you'd like. In this example, we'll use Google  -->
+
+<!-- Next, we're going to learn how to add images to your website -->
+   <!-- There are many different websites to get free, stock photos, but for this class, we'll use Unsplash. Mention copyright violations -->
+
+   <!-- Unsplash is a website that provides free, high-quality images that can be used in HTML projects.
+
+   Go to the Unsplash website at https://unsplash.com/.
+   Search for a photo that fits your needs (ice cream)
+   Click on the photo to view it.
+   Click on the "Download free" button to download the image (choose a size).
+   Save the image to your project folder (desktop - webdevelopment - save as icecream.jpg). -->
+
+   <!-- To link images in HTML, we can use the <img> tag with the src attribute to specify the image file path and optional alt attribute to provide alternative text for the image. Alt text describes what the image is about, and is important for accessibility, as it allows users who are visually impaired or who are using screen readers to understand what the image is conveying.-->
+
+   <a href="https://www.google.com"><img src="icecream.jpg" alt="bowl of ice cream with sprinkles"></a>
+   <br>
+   <!-- To add a link to the image, we can use the <a> tag with the href attribute to specify the URL of the linked page. The image is wrapped in an <a> tag to create a hyperlink to the specified URL. When the user clicks on the image, they will be directed to the linked page.-->
+
+
+   <br>
+<!-- the <button> element is used to create a clickable button on a web page. Buttons are often used to trigger actions or perform specific functions when clicked, such as submitting a form, opening a link, or performing an operation. Wrap the button in a tag to make it clickable-->
+   <a href="https://www.google.com">
+   <button type="submit">Click me!</button></a>
+</body>
+</html>

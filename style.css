@@ -1,0 +1,171 @@
+/* Here, we are styling the body element on a webpage.
+
+& font-family sets the preferred font for the body text and any child elements, with a fallback to a generic sans-serif font.
+font-size sets the base font size for the body text.
+& line-height sets the vertical spacing between lines in the body text.
+color determines the color of the text in the body. In this example, the color is set to a dark gray.
+
+& background-color sets the background color of the body. In this example, it is set to a light gray.
+margin and padding set the amount of space around the body element on the page. In this case, both margins and padding are set to zero, so the body fills the entire page.
+
+These are some common CSS properties for the body element, but they can be adjusted to fit the particular needs of any given webpage.*/
+
+body {
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ line-height: 1.5;
+ color: #333333;
+ background-color: #f5f5f5;
+ margin: 0;
+ padding: 0;
+}
+
+/* (Have an image pulled up of box model!!) CSS box model is a set of rules that determine how content is displayed inside a container on a webpage. Each HTML element on a page is considered a box, and the box model defines how properties such as margin, border, padding, and content interact with each other to determine the size and position of the box.
+
+The CSS box model consists of four elements: content, padding, border, and margin. The content is the actual element on the page, and the other three elements surround and affect how the content is displayed.
+
+Padding is space added between the content and the border of the box, while the border is the line that runs around the edge of the box, and margin is space added outside the border. Together, padding, border, and margin affect how the box is positioned on the page and how it interacts with other elements on the page.
+
+In order to control the position and size of a box on a web page, you need to understand how the different parts of the box interact and how to adjust them using CSS. For example, if you want more padding inside a box, you can increase the padding value using padding property in CSS */
+
+/* --------------------------------------- */
+
+/* Here, we're styling the h1 element by targeting it with a CSS selector h1. Then, we're using various CSS properties to change the size, weight, line height, alignment, and color of the h1 text.
+
+So, when this code is applied, the h1 text appears in a font size of 36 pixels, with bold text, a line height of 1.2 (meaning the vertical spacing between lines is 1.2 times the font size), centered horizontally on the page, and a color of dark gray.
+
+Again, these are just example styles, but with CSS, you can change the appearance and layout of h1 (as well as any other) elements in a variety of ways to fit the specific design needs of your website or webpage. */
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #C33C54;
+}
+
+
+/* Now, we're styling the h2 element by targeting it with a CSS selector h2. Then, we're using various CSS properties to change the size, weight, line height, alignment, color, margins, padding, and border of the h2 text.
+
+&Have the kids try to do the size, weight, line height, alignment, color
+
+So, when this code is applied, the h2 text appears in a font size of 24 pixels, with bold text, a line height of 1.3 (meaning the vertical spacing between lines is 1.3 times the font size), aligned to the left, in the color navy. A margin of 20 pixels is added at the top and bottom of the element and 0 on both the left and right sides. A padding of 5 pixels is applied at the top and bottom of the text, and a border is added to the bottom of the element with a width 2 pixels and color navy. */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: left;
+    color: navy;
+    margin: 20px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid navy;
+}
+
+/* & Let them play around with the options for about 10 minutes and answer questions. Get set up for class and ID lesson. Go to notes to explain what they are then come back to css file*/
+
+/* #id     .class */
+
+.icecream {
+    color: #D496A7;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.colors {
+    color: #37718E;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Text align will align the text, but not the number or symbol of the li. Use list-style-position: inside to make them go together */
+
+#choc {
+ color: brown;
+ text-align: center;
+ list-style-position: inside;
+}
+
+#straw {
+ color: pink;
+ text-align: center;
+ list-style-position: inside;
+}
+
+#van {
+ color: deeppink; 
+ text-align: center;
+ list-style-position: inside;
+}
+
+#red {
+ color: red;
+ text-align: center;
+ list-style-position: inside;
+}
+
+#green {
+ color: green;
+ text-align: center;
+ list-style-position: inside;
+}
+
+#blue {
+ color: blue;
+ text-align: center;
+ list-style-position: inside;
+}
+
+/* This CSS code sets the font-size to 18px, the font-family to Arial or a sans-serif backup font, the color to a dark gray (#333), and the text-align to the center. We are also applying a margin of 0 at the top, 0 at the left and right, and 20px at the bottom. */
+p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+/* Here we're targeting all img elements on the page with the CSS selector img, then applying various styles to change the appearance of the images:
+
+max-width: 80%; sets the maximum width of the image to no wider than 80% of the screen.
+&height: auto; ensures that the aspect ratio of the image is preserved while scaling it to fit within its parent element.
+display: block; ensures that the image is displayed as a block-level element and not as an inline-level element.
+&margin: 0 auto; centers the image horizontally within its parent element.
+border-radius: 10px; adds a rounded edge to the image*/
+
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* This code sets the background color and text color of the button, remove the border and gives the button a rounded border radius. It also gives some padding so the button is easier to click and easily visible with a cursor. The transition property is a nice touch that changes the background color of the button when it is hovered over. */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* A pseudo-class is a special state of an HTML element that can be selected by CSS. the :hover pseudo-class targets an element when a mouse pointer hovers over it. Using pseudo-classes, you can change the style of an element based on user interaction, current state, or position in the document.*/
+button:hover {
+  background-color: #0062cc;
+}
+
+/* Anchor tag (typically used for links */
+a {
+  color: #007bff;
+  text-decoration: none; /* Removes the underline from links */
+  transition: color 0.3s ease;
+}
+/* This code sets the color of the text for an anchor tag to blue (#007bff) and removes the underline that is typically added to links. The transition property adds a nice touch that changes the link color smoothly when it is hovered over. When the link is hovered over, the color changes to a darker blue (#0062cc) and the text decoration changes to be underlined. */
+a:hover {
+  color: #0062cc;
+  text-decoration: underline;
+}

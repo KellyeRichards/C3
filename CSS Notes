@@ -1,0 +1,54 @@
+Welcome back to class! Today we're going to get started on the "pretty" portion of web development. But first I have a few questions about HTML. 
+       What does HTML stand for?
+         Hyper Text Markup Language
+       What is the tag you must have at the very top of your code? And what does that tag do?
+         <!doctype html> tells the browser what version of html the file is
+       What is a boilerplate? VSCode Shortcut?
+         template   !
+       
+Cascading Style Sheet - CSS is a style sheet language used to define the look and layout of web pages. It describes how HTML elements should be displayed on screen. Allows us to control the color, font, size, layout, and other visual aspects of a webpage. Using CSS allows you to create visually appealing and consistent designs across a website, without manually editing each HTML document. 
+
+CSS works by associating a set of properties and values to HTML elements. When an HTML document is loaded in a web browser, the CSS file linked to that document is also loaded, and the browser applies the associated styles to the HTML elements based on their selectors.
+
+Create new file - name it style.css
+
+How to Link css file in html - nav to html file - type link in head section - href = style.css 
+
+Comments use * and /, same shortcut as html comments
+
+Basic syntax of CSS uses selectors, properties and values 
+Selectors -  are used to target specific HTML elements for styling. Selectors can be based on element type (e.g. h1, p, img), class (e.g. .my-class), or ID (e.g. #my-element). We'll be going over class and ID in a bit.
+
+Properties - are used to set the style for the selected HTML element. Properties can include things like font size (font-size), background color (background-color), and text color (color).
+
+Values -  are specific settings for properties. For example, if the property is font-size, the value could be 14px.
+
+In CSS, there are several ways to specify colors for your webpage.
+
+   One way is to use a basic color name, such as red, green, blue, yellow, etc. CSS supports 147 different predefined color names.
+
+   Another way is to use a hexadecimal color value, which is a six digit code that represents red, green, and blue (RGB) values of a color. Each pair of characters in the code represents a RGB value, ranging from 00 to FF.
+   
+   Another option is to use RGB() or RGBA() color functions. This allows you to specify colors using the red, green, and blue (RGB) values of a color, in decimal format from 0 to 255. The RGBA() function allows you to add an alpha value that sets the transparency of a color, with a value ranging from 0 (completely transparent) to 1 (fully opaque).
+
+If you struggle with picking colors and color themes, check out coolors.co
+
+<!-- /* **Go to css file now** -->
+
+**This starts the Class and ID lesson
+
+In HTML and CSS, class and id are both useful for selecting and styling elements, but they serve different purposes.
+
+A class is a way to group elements together that share specific attributes or styles. You can apply a class to one or multiple HTML elements, and the same class can be used repeatedly throughout your HTML document. This is useful when you want to apply a particular set of styles or attributes to multiple elements on a page but not necessarily to all elements of the same type. For example, you can use a class to give individual styling to different sections of a webpage.
+      --Example-- Go to html and add the class; go to style and create class properties
+   <h2 class="icecream">Favorite Ice Cream Flavors</h2>
+   <h2 class="colors">Favorite Colors</h2>
+
+On the other hand, an id is used to uniquely identify a specific HTML element on a page. Unlike with a class, each id should be unique to a single element. You would typically use an id when you want to apply specific styles or attributes to an individual HTML element. For example, you might use an id to give a unique style to the navigation bar for your website.
+      --Example-- Go to html then css to add/mod IDs
+      
+
+In general, it's a good practice to use a class when you want to apply the same styles to multiple elements, while using an id when you want to apply unique styles to individual elements. However, it's important to keep in mind that overuse of id selectors can lead to code duplication and make the code more difficult to maintain.
+
+Overall, while there may not always be a clear-cut distinction between when to use class versus id, it's important to use each appropriately for the best organization and readability of your code.
+
