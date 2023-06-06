@@ -1,0 +1,36 @@
+<!-- Questions to ask (HTML) -->
+What does HTML stand for? Answer: HTML stands for HyperText Markup Language.
+
+What is an HTML tag and how is it used? Answer: An HTML tag is a special code used to define and mark up elements on a webpage. It is used to create structure, content, and styling for a webpage.
+
+What is the tag you must have at the very top of your code?
+<!doctype html>
+What does an empty tag mean?
+No closing tag. Only one tag. Tag doesn’t have to surround any content.
+
+What is the difference between an <h1> and an <h6> tag?
+H1 is most important; h6 is least important; h1 is biggest
+
+What tag would you use to create a line break?
+<br>
+
+What tag would you use to create a horizontal line?
+<hr>
+
+What is the difference between ol and ul?
+ol is ordered list and ul is unordered
+
+What is the tag used for a list item?
+li
+
+<!-- Questions to ask (CSS): -->
+What does CSS stand for? What is the purpose of it?
+Cascading Style Sheets – to style the visual appearance of an HTML document
+
+<!-- Questions to ask (Javascript): -->
+What does scope mean?
+
+What are the 3 types of variables? How are they different?
+var – function-scoped 🡪 accessed in the function they’re declared in
+let – block-scoped 🡪 can only be accessed in that block (not globally accessible)
+const – value cannot be changed once assigned
