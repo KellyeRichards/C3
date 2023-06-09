@@ -70,3 +70,27 @@ In general, it's a good practice to use a class when you want to apply the same 
 
 Overall, while there may not always be a clear-cut distinction between when to use class versus id, it's important to use each appropriately for the best organization and readability of your code.
 
+<!-- !Parent and child elements -->
+Parent and child elements are terms used in HTML and CSS to describe the relationship between nested elements. A parent element is an element that contains another element inside it. The contained element is called a child element. For example, if you have an HTML document with a "div" element that contains an "h1" element, the "div" is the parent element and the "h1" is the child element.
+
+Think of a parent element as a container that wraps around one or more child elements. This means that any styles or properties applied to the parent element will also affect the child elements it contains. For example, if you set a background color on a div element, any text or other elements inside the div will have that background color as well.
+
+Child elements, on the other hand, inherit properties from their parent elements. This means that any styles or properties applied to the parent element will be passed down to the child elements. However, child elements can also have their own styles and properties that override the styles inherited from the parent element.
+
+Understanding the parent-child relationship is important in HTML and CSS, as it allows you to control the layout and appearance of your web pages by applying styles to specific elements. It also helps you organize your code and structure your content in a way that makes sense.
+
+<!-- !Divs and Spans -->
+Divs and spans are essential HTML elements because they provide a way to group and format the content on a web page. Here are some specific reasons why you might use divs and spans:
+
+Structure and organization: Divs provide a way to group related content together and create a logical structure for the page. They can be used to create different sections of the page such as header, main content, footer, sidebar, etc.
+
+Styling and layout: Divs and spans can be used to apply CSS styles to the content on the page. For example, you can add a background color, padding, margin, border, and other properties to a div or span to control its appearance and layout.
+
+Responsive design: Divs and spans are often used in combination with responsive design techniques to create layouts that adapt to different screen sizes. For example, you can use divs to create a grid system for the page, and use media queries to adjust the layout based on the screen size.
+
+Accessibility: Divs and spans can be used to add semantic meaning to the content on the page, which can improve accessibility for users with disabilities. For example, you can use a div to wrap around a section of the page and add a "role" attribute to indicate its purpose, such as "header" or "navigation".
+
+JavaScript and jQuery: Divs and spans are frequently used in JavaScript and jQuery code to select and manipulate elements on the page. They can be used to add event listeners, modify the content of the page, or create dynamic effects.
+
+Overall, divs and spans provide a flexible and powerful way to structure and format the content on a web page. They are essential tools for web developers and designers and can be used in many different ways to create visually appealing and accessible websites.
+

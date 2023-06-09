@@ -1,0 +1,13 @@
+Choose the fonts you want to use: Visit Google Fonts (https://fonts.google.com/) and choose the fonts you want to use on your website. You can browse different categories, filter by language, or search for specific fonts.
+
+Select the styles you want to use: Once you've selected your desired font, you can select the specific styles you want to use, such as bold, italic, or regular.
+
+Generate code for your website: Click on the “Embed” button to generate the code for your website.
+
+Add the code to your website: Paste the code into the head section of your HTML document, or wherever you’d like to add the fonts. Make sure to save the changes and preview the website to see the new fonts.
+
+Apply the fonts to your website: To apply the fonts to your content, use CSS to define the font-family property for the relevant HTML tags. You can add this code in your CSS stylesheet or in-line using the style attribute in your HTML code.
+
+For example, if you want to use the “Open Sans” font for your headings, you would add the following CSS code to your stylesheet:
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; }

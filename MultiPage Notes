@@ -1,0 +1,69 @@
+To add multiple pages to an HTML website, you need to create separate HTML files for each page. Here are the steps to follow:
+
+Create a new HTML file for each page you want to add to the site. You can use a text editor or an HTML editor, or create a new file in your code editor.
+
+In the HTML file for the first page, add links to the other pages using the anchor tag (<a>). You can create a navigation menu or a list of links to each page.
+
+In the anchor tag, set the href attribute to the filename of the HTML file for the target page. For example, if you want to link to a page called "contact.html", the href attribute should be set to "contact.html".
+
+Save and close the HTML file for the first page. Repeat the process for each additional page.
+
+Test the links by opening the HTML file for the first page in your web browser and clicking on the links. You should be able to navigate to each page using the links you created.
+
+<!-- & NavBar -->
+A navigation bar is a common element of many websites that provides links to different pages on the site. Here's an example of how to create a simple navigation bar in HTML using an unordered list (<ul>) and anchor tags (<a>) to link to different pages:
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+In this example, the navigation bar is wrapped in a <header> tag, which can be used to add additional content such as a logo or a tagline.
+
+The <nav> tag indicates that these links are part of the site's main navigation menu.
+
+Each link is represented as an <li> (list item) element within an unordered list (<ul>). The <a> tag within each list item sets the href attribute to the URL of the page being linked to.
+
+You can also add some basic CSS to style the navigation bar. Here's an example:
+
+header {
+  background-color: #333;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #333;
+}
+
+This example sets the background color and text color of the header element, removes the default list style from the unordered list, and sets each list item to appear as an inline block. The CSS also formats the font size, padding, and hover effect for the navigation links.
+
+Note that this is just one example of how to create a navigation bar in HTML and CSS. There are many variations and styles you can use depending on the design and requirements of your website.
+
+
+
+
+

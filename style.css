@@ -20,6 +20,7 @@ body {
  padding: 0;
 }
 
+
 /* (Have an image pulled up of box model!!) CSS box model is a set of rules that determine how content is displayed inside a container on a webpage. Each HTML element on a page is considered a box, and the box model defines how properties such as margin, border, padding, and content interact with each other to determine the size and position of the box.
 
 The CSS box model consists of four elements: content, padding, border, and margin. The content is the actual element on the page, and the other three elements surround and affect how the content is displayed.
